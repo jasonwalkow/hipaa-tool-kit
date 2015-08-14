@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -11,6 +9,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding-top: 50px;
+	overflow: auto;
+}
+
+h2 {
+	overflow: hidden;
 }
 
 section {
@@ -78,6 +81,10 @@ section {
 	opacity: 0.7;
 }
 
+.navbar-brand {
+	overflow: hidden;
+}
+
 /* MAIN STYLES */
 
 
@@ -136,6 +143,7 @@ section {
 	font-weight: 900;
 	font-size: 6rem;
 	margin: 0 0;
+	overflow: hidden;
 }
 
 .package {
@@ -164,7 +172,7 @@ section {
 	line-height: 3rem;
 	margin: 0 0;
 	padding: .25rem;
-	overflow: none;
+	overflow: hidden;
 }
 
 .buy-now {
@@ -279,6 +287,7 @@ section {
 	font-weight: 300;
 	letter-spacing: 0.2rem;
 	margin-bottom: 0.2rem;
+	overflow: hidden;
 }
 
 .subscription-title {
@@ -447,7 +456,7 @@ h2 {
 	margin-bottom: 0;
   	height: 60vh;
   	text-align: center;
-  	overflow: none;
+  	overflow: hidden;
 }
 
 .footer h5 {
