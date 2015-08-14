@@ -2,53 +2,115 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HIPAA Tool Kit</title>
-	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
 	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/x-icon"  href="img/favicon.ico">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
-	<nav class="top-navigation">
-		<div class="content">
-			<img class="logo" src="img/logo.png" alt="logo">
-			<ul class="links">
-				<li class="hipaa-tool-nav">HIPAA TOOL KIT</li>
-				<li>POLICIES &amp; PROCEDURES</li>
-				<li>TRAINING</li>
-				<li>NEWS</li>
-				<li>RESOURCES</li>
-				<li><button class="contact-us">Contact Us</button></li>
-			</ul>
-		</div>
-	</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#introduction"><img class="logo" src="img/logosymbol.png" alt="logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right navbar-custom hipaa-tool-nav">
+            <li><a href="#introduction" class="overview-green">HIPAA TOOL KIT</a></li>
+            <li><a href="#overview">OVERVIEW</a></li>
+            <li><a href="#policies">POLICIES &amp; PROCEDURES</a></li>
+            <li><a href="#training">TRAINING</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#resources">RESOURCES</a></li>
+            <li><a href="#footer"><button class="contact-us">Contact Us</button></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 	<section class="introduction">
+	<a name="introduction"></a>
 		<div class="product">
 			<div class="package">
 				<img class="hipaa-box" src="img/HIPAAToolKit.png" alt="HIPAA-Tool-Kit">
 			</div>
 			<div class="intro">
-				<h1>HIPAA Tool Kit</h1>
+				<h1 class="page-title">HIPAA Tool Kit</h1>
 				<p class="intro-text">Designed to help providers meet HIPAA rules and regulations, this all-in-one package is an ideal resource for covering your HIPAA compliance needs.</p>
 				<button class="buy-now">BUY NOW</button>
-				<button class="learn-more">LEARN MORE</button>
+				<a href="#overview"><button class="learn-more">LEARN MORE</button></a>
 			</div>
 		</div>
 	</section>
+	<a name="overview"></a>
 	<section class="overview">
 		<h2 class="include">What does the <span class="title">HIPAA Tool Kit</span> Include?</h2>
 		<div class="main">
+			<h3 class="overview-title">$2000 One-Time Cost</h3>
+				<ul class="one-time-cost">
+					<li>
+						<img class="small-icon" src="img/pandp-green.png" alt="HIPAA-Policies-And-Procedures">
+						<h4 class="small-title">Policies &amp; <br> Procedures</h4>
+						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="separately"><span class="highlight">$1500</span> if purchased separately</p>
+						<button class="buy-now-small">BUY NOW</button>
+					</li>
+					<li>
+						<img class="small-icon" src="img/livetraining-green.png" alt="Live-Training">
+						<h4 class="small-title">Live <br> Training</h4>
+						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="separately"><span class="highlight">$350</span> if purchased separately</p>
+						<button class="buy-now-small">BUY NOW</button>
+					</li>
+					<li>
+						<img class="small-icon" src="img/trainingmaterials-green.png" alt="Training-Materials">
+						<h4 class="small-title">Training <br> Materials</h4>
+						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="separately"><span class="highlight">$400</span> if purchased separately</p>
+						<button class="buy-now-small">BUY NOW</button>
+					</li>
+				</ul>
 			
+		</div>
+		<div class="plus">
+			<img class="plus-sign" src="img/plus-sign.png" alt="Plus">
 		</div>
 		<div class="second">
-			
+			<h3 class="subscription-title">$99/Month <br> Subscription</h3>
+				<ul class="subscription">
+					<li>
+						<img class="smallest-icon" src="img/hipaanews-green.png" alt="HIPAA-Newsletter">
+						<h4 class="smallest-title">Monthly Newsletter</h4>
+					</li>
+					<li>
+						<img class="smallest-icon" src="img/hipaablog-green.png" alt="Training-Materials">
+						<h4 class="smallest-title">Blog Access</h4>
+					</li>
+					<li>
+						<img class="smallest-icon" src="img/hipaahandouts-green.png" alt="HIPAA-Handouts">
+						<h4 class="smallest-title">HIPAA Handouts</h4>
+					</li>
+					<li>
+						<img class="smallest-icon" src="img/annualupdates-green.png" alt="Annual-Updates">
+						<h4 class="smallest-title">Annual Updates</h4>
+					</li>
+				</ul>
 		</div>
 	</section>
+	<a name="policies"></a>
 	<section class="policies">
 		<h2>HIPAA Policies &amp; Procedures</h2>
-		<img class="p-p" src="" alt="HIPAA-Policies-And-Procedures">
+		<img class="p-p" src="img/pandp.png" alt="HIPAA-Policies-And-Procedures">
 		<div class="policy-text">
 			<p class="p-and-p">All <span class="highlight">HIPAA Tool Kit</span> Policies and Procedures are in-line with current regulations, including HIPAA's Security Rule, Privacy Rule, Enforcement Rule, Omnibus Rule, and all other regulatory actions.</p>
 			<p class="p-and-p">Individual Policies and Procedures include, but are not limited to, <span class="highlight">Notice of Privacy Practices, Use of PHI for TPO, Third Party Disclosures, Authorization for Use or Disclosure, Tracking Logs, Covered Entities and Business Associates, as well as Breaches and Breach Risk Assessment.</span></p>
@@ -56,42 +118,83 @@
 		</div>
 	</section>
 	<section class="training">
+	<a name="training"></a>
 		<h2>HIPAA Training</h2>
 		<div class="content-box">
-			<img class="box-icon" src="" alt="Live-Training">
+			<img class="box-icon" src="img/livetraining.png" alt="Live-Training">
 			<h3>Live Training</h3>
 			<p class="box-para">Once you have purchased the HIPAA Tool Kit, you and your staff will be scheduled for a live initial HIPAA Compliance Training from a Certified Compliance Consultant.</p>
 			<button class="sign-up-small">SIGN UP</button>
 		</div>
 		<div class="content-box">
-			<img class="box-icon" src="" alt="Training-Materials">
+			<img class="box-icon" src="img/trainingmaterials.png" alt="Training-Materials">
 			<h3>Training Materials</h3>
 			<p class="box-para">In addition to the Live Training, you will receive training materials for new hires and ongoing education. Training materials are easy-to-follow and aesthetically modern.</p>
 			<button class="sign-up-small">SIGN UP</button>
 		</div>
 	</section>
 	<section class="news">
-		<div class="">
-			<h2>HIPAA News</h2>
+	<a name="news"></a>
+		<h2>HIPAA News</h2>
+		<div class="content-box">
+			<img class="box-icon" src="img/hipaanews.png" alt="HIPAA-News">
+			<h3>Monthly Newsletter</h3>
+			<p class="box-para">Read the latest breaking HIPAA news from our newsletter and stay up-to-date on recent enforcement actions and guidance announcements.</p>
+			<button class="sign-up-small">SIGN UP</button>
+		</div>
+		<div class="content-box">
+			<img class="box-icon" src="img/hipaablog.png" alt="HIPAA-Blog">
+			<h3>HIPAA Blog</h3>
+			<p class="box-para">Learn about the latest HIPAA events and happenings from industry leaders. Gain insight into the industry and upcoming education events.</p>
+			<button class="sign-up-small">SIGN UP</button>
 		</div>
 	</section>
 	<section class="resources">
-		<div class="">
-			<h2>HIPAA Resources</h2>
+	<a name="resources"></a>
+		<h2>HIPAA RESOURCES</h2>
+		<div class="content-box">
+			<img class="box-icon" src="img/hipaahandouts.png" alt="HIPAA-Handouts">
+			<h3>HIPAA Handouts</h3>
+			<p class="box-para">Our handouts include a HIPAA F.A.Q., one-pagers for Privacy Officers, HIPAA flyers, and other resources to help you promote HIPAA compliance.</p>
+			<button class="sign-up-small">SIGN UP</button>
+		</div>
+		<div class="content-box">
+			<img class="box-icon" src="img/annualupdates.png" alt="Annual-Updates">
+			<h3>Annual Updates</h3>
+			<p class="box-para">Since HIPAA was enacted in 1996, it has undergone significant changes and updates in order to meet increasingly strict industry standards.</p>
+			<button class="sign-up-small">SIGN UP</button>
 		</div>
 	</section>
 	<footer class="footer">
-		<div class="content">
-			<h5>Join us on</h5>
+	<a name="footer"></a>
+		<div class="content .footing">
+			<h5>Connect With Us On</h5>
 			<ul class="icons">
+				<li class="linkedin">
+					<a href="https://https://www.linkedin.com/company/compliagent" target="_blank"><i class="fa fa-linkedin"></i></a>
+				</li>
 				<li class="twitter">
-					<i class="fa fa-twitter"></i>
+					<a href="https://twitter.com/Compliagent" target="_blank"><i class="fa fa-twitter"></i></a>
 				</li>
 				<li class="facebook">
-					<i class="fa fa-facebook"></i>
+					<a href="https://www.facebook.com/pages/Compliagent/1527421300833427" target="_blank"><i class="fa fa-facebook"></i></a>
 				</li>
-				<li class="instagram">
-					<i class="fa fa-instagram"></i>
+				<li class="tumblr">
+					<a href="http://compliagent.tumblr.com/" target="_blank"><i class="fa fa-tumblr"></i></a>
+				</li>
+				<li class="google">
+					<a href="https://plus.google.com/+Compliagent/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+				</li>
+			</ul>
+			<ul class="closing">
+				<li>
+					<p class="by-line"><span class="highlight">HIPAA Tool Kit</span> is a product sold and distributed by <a href="http://www.compliagent.com" class="highlight">Compliagent</a>, a consulting firm based in Los Angeles, CA. If you are interested in professional consulting services or would like to learn more, please visit our <a href="http://www.compliagent.com" class="highlight">website</a>.</p>
+				</li>
+				<li class="center-image">
+					<img class="closing-logo" src="img/logosymbol.png" alt="logo">
+				</li>
+				<li>
+					<p class="address"><a href="http://www.compliagent.com" class="highlight">COMPLIAGENT</a><br>11845 West Olympic Blvd, Suite 1250<br>Los Angeles, CA 90064<br><a href="tel:+13109968950" class="highlight">(310) 996-8950</a><br><a href="mailto:info@compliagent.com?subject=HIPAA Tool Kit" class="highlight">info@compliagent.com</a></p>
 				</li>
 			</ul>
 			<span class="copy">
