@@ -585,6 +585,7 @@ a:visited {
  	/*INTRODUCTION*/
  	.product {
  		text-align: center;
+ 		height: 70%;
  	}
 	.package,
 	.intro {
@@ -608,13 +609,13 @@ a:visited {
 		margin: 0;
 	}
 	.intro-text {
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		width: 100%;
 		line-height: 1.2;
 		margin: 0 auto;
 	}
 	.buy-now {
-		margin: 6rem 2rem;	
+		margin: 2rem 2rem;	
 		font-size: 1rem;
 	}
 	.learn-more {
@@ -699,6 +700,7 @@ a:visited {
 		width: 90%;
 		height: 40%;
 		margin-top: 0;
+		margin-bottom: 0.6rem;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -740,9 +742,9 @@ a:visited {
 	}
 	.by-line {
 		text-align: center;
-		font-size: 1.2rem;
-		margin-left: 10%;
-		margin-right: 10%;
+		font-size: 1rem;
+		margin-left: 5%;
+		margin-right: 7%;
 	}
 	.closing-logo {
 		display: none;
@@ -754,8 +756,9 @@ a:visited {
 		margin-right: 20%;
 	}
 	.copy {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 		padding-top: 0.5rem;
+		width: 90%;
 	}
 	.footer .icons {
 		width: 80%;
