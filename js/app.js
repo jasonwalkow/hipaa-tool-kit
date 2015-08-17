@@ -8,5 +8,5 @@ $(document).ready(function() {
 		event.preventDefault();
 		var href = $(this).attr('href').replace('#', '')
 		scrollToAnchor(href);
-	});			
+	});		
 });
