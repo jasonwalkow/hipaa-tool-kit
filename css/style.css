@@ -578,6 +578,10 @@ a:visited {
  	body {
  		overflow-x: hidden;
  	}
+ 	h2 {
+ 		margin-top: 0;
+ 		padding-top: 1rem;
+ 	}
  	/*INTRODUCTION*/
  	.product {
  		text-align: center;
@@ -594,13 +598,13 @@ a:visited {
 		margin-right: 2rem;
 	}
 	.package .hipaa-box {
-		width: 25rem;
+		width: 50%;
 		text-align: center;
-		margin-left: 25%;
+		margin-left: 30%;
 		margin-right: 25%;
 	}
 	.page-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 		margin: 0;
 	}
 	.intro-text {
@@ -610,12 +614,12 @@ a:visited {
 		margin: 0 auto;
 	}
 	.buy-now {
-		margin: 8rem 2rem;	
-		font-size: 1.5rem;
+		margin: 6rem 2rem;	
+		font-size: 1rem;
 	}
 	.learn-more {
 		margin: 0;
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 	/*OVERVIEW*/
 	.main {
@@ -623,6 +627,20 @@ a:visited {
 		clear: both;
 		width: 90%;
 		height: 45%;
+	}
+	.include {
+		margin-top: 0;
+		padding-top: 1rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.overview-title {
+		font-size: 2rem;
+		margin-top: 1rem;
+	}
+	.subscription-title {
+		font-size: 2rem;
+		margin-top: 1rem;
 	}
 	.plus {
 		display: none;
@@ -637,20 +655,24 @@ a:visited {
 		width: 50px;
 	}
 	.small-title {
-		font-size: .9em;
+		font-size: .6em;
 		padding-bottom: 0;
 	}
 	.small-desc {
 		display: none;
 	}
-	.buy-now-small {
+	.separately {
 		font-size: 1rem;
+		padding-top: 0;
+	}
+	.buy-now-small {
+		font-size: 0.8rem;
 	}
 	.smallest-icon {
-		width: 30px;
+		width: 25px;
 	}
 	.smallest-title {
-		font-size: .8em;
+		font-size: .5em;
 	}
 	.second .subscription li {
 		display: inline-block;
@@ -658,25 +680,27 @@ a:visited {
 	}
 	/*POLICIES AND PROCEDURES*/
 	.p-p {
-		width: 40%;
+		width: 30%;
 	}
 	.p-and-p {
 		width: 90%;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		padding-top: 0;
 		padding-bottom: 0.5rem;
 	}
 	.sign-up {
 		margin-top: 2rem;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 	/*CONTENT BOXES*/
 	.content-box {
 		display: block;
 		clear: both;
 		width: 90%;
-		height: 37%;
+		height: 40%;
 		margin-top: 0;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	.box-icon {
 		width: 25%;
@@ -686,17 +710,25 @@ a:visited {
 	}
 	.content-box h3 {
 		margin-top: 0.5rem;
-		font-size: 1.8rem;
+		font-size: 1.3rem;
 	}
 	.box-para {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		padding-bottom: 0;
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 	}
 	.sign-up-small {
-		font-size: 1rem;
+		font-size: 0.7rem;
 	}
 	/*FOOTER*/
+	.footer {
+		text-align: center;
+	}
+	.footer h5 {
+		font-size: 1.5rem;
+		margin-left: 25%;
+		margin-right: 33%;
+	}
 	.closing {
 		margin: 1rem;
 	}
@@ -709,17 +741,31 @@ a:visited {
 	.by-line {
 		text-align: center;
 		font-size: 1.2rem;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.closing-logo {
 		display: none;
 	}
 	.address {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		text-align: center;
-		margin-left: 15%;
+		margin-left: 20%;
+		margin-right: 20%;
 	}
 	.copy {
+		font-size: 0.8rem;
 		padding-top: 0.5rem;
+	}
+	.footer .icons {
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.footer .icons li {
+		font-size: 1.25rem;
+		width: 2em;
+		height: 2em;
 	}
 	}
 
