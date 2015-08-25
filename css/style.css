@@ -133,14 +133,6 @@ a:focus {
 	height: 100vh;
 }
 
-.resources {
-	background-image:
-        linear-gradient(rgba(114, 183, 71, 0.965), rgba(114, 183, 71, 0.965)), 
-        url("../img/imgtest.png");
-	border-top: 2rem solid #558C34;
-	height: 100vh;
-}
-
 .footer {
 	background-color: #3B3B3B;
 }
@@ -438,7 +430,7 @@ h2 {
 }
 
 .training-pics {
-	width: 60%;
+	width: 70%;
 	margin-top: 5rem;
 }
 
