@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding-top: 50px;
@@ -46,7 +46,7 @@ a:focus {
 }
 
 .contact-us {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 1.5rem; 
   	color: #fff; 
   	letter-spacing: 0.03em;
@@ -68,7 +68,7 @@ a:focus {
 }
 
 .navbar-custom {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   color: #fff;
   font-style: 900;
 }
@@ -78,7 +78,7 @@ a:focus {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: 'Poppins', Arial, sans-serif;
 	color: white;
 	font-weight: 600;
 	letter-spacing: 0.3;
@@ -109,22 +109,26 @@ a:focus {
 	height: 100vh;
 }
 
+.policy-example,
+.training-example,
+.resources-example,
+.news-example {
+	background-color: #ECECEC;
+	height: 100vh;
+	border-top: 2rem solid #D8D8D8;
+	text-align: center;
+}
+
 .policies,
 .news {
 	border-top: 2rem solid #3F3F3F;
 }
 
 .overview,
-.training {
+.training,
+.resources,
+.any-questions {
 	background-color: #72B747;
-	border-top: 2rem solid #558C34;
-	height: 100vh;
-}
-
-.resources {
-	background-image:
-        linear-gradient(rgba(114, 183, 71, 0.9), rgba(114, 183, 71, 0.9)), 
-        url("../img/darkimg.png");
 	border-top: 2rem solid #558C34;
 	height: 100vh;
 }
@@ -192,7 +196,7 @@ a:focus {
 }
 
 .buy-now {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 2rem; 
   	color: #fff; 
   	letter-spacing: 0.1em;
@@ -208,7 +212,7 @@ a:focus {
 }
 
 .learn-more {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 2rem; 
   	color: #fff; 
   	letter-spacing: 0.1em;
@@ -287,7 +291,7 @@ a:focus {
 }
 
 .buy-now-small {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 1.5rem; 
   	color: #000; 
   	letter-spacing: 0.1em;
@@ -396,7 +400,7 @@ h2 {
 }
 
 .sign-up {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 2rem; 
   	color: #fff; 
   	letter-spacing: 0.1em;
@@ -406,6 +410,59 @@ h2 {
 	border: 3px solid #fff;
 	background: none;
 	border-radius: 2px;
+}
+
+/*================================
+ SECTION EXAMPLE STYLES
+ ================================*/
+
+.example-title {
+	color: #72B747;
+	font-size: 3rem;
+	padding-top: 6rem;
+	text-align: center;
+	font-style: italic;
+}
+
+.p-p-example {
+	width: 60%;
+	margin-top: 5rem;
+}
+
+.training-pics {
+	width: 60%;
+	margin-top: 5rem;
+}
+
+.resources-pics {
+	width: 60%;
+	margin-top: 5rem;
+}
+
+.news-pics {
+	width: 60%;
+	margin-top: 5rem;
+}
+
+.example-text {
+	width: 80%;
+	text-align: center;
+	font-size: 1.75rem;
+	margin: 3rem auto 1rem auto;
+}
+
+.testimonial {
+	width: 70%;
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+
+/*================================
+ ANY QUESTIONS STYLES
+ ================================*/
+
+.any-questions {
+	text-align: center;
 }
 
 /*================================
@@ -428,7 +485,7 @@ h2 {
 	color: #fff;
 	text-align: center;
 	width: 40%;
-	height: 65%;
+	height: 60%;
 	background-color: rgba(0, 0, 0, 0.15);
 	border-radius: 5px;
 	/*border: 3px solid rgba(255, 255, 255, 0.1);*/
@@ -443,7 +500,7 @@ h2 {
 }
 
 .sign-up-small {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 2rem; 
   	color: #fff; 
   	letter-spacing: 0.1em;
@@ -456,7 +513,7 @@ h2 {
 }
 
 .box-para {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
   	font-size: 1.5rem; 
   	color: #fff; 
   	letter-spacing: 0.1em;

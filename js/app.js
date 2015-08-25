@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	function scrollToAnchor(aid){
 		var aTag = $("a[name='"+ aid +"']");
@@ -6,12 +5,17 @@ $(document).ready(function() {
 	}
 	$(".navbar a").click(function(event) {
 		event.preventDefault();
-		var href = $(this).attr('href').replace('#', '')
+		var href = $(this).attr('href').replace('#', '');
 		scrollToAnchor(href);
 	});	
 	$(".by-line .to-top").click(function(event) {
 		event.preventDefault();
-		var href = $(this).attr('href').replace('#', '')
+		var href = $(this).attr('href').replace('#', '');
 		scrollToAnchor(href);
 	});	
+	/*$(".policy-text .next-more").click(function(event) {
+		event.preventDefault();
+		var href = $(this).attr('href').replace('#', '');
+		scrollToAnchor(href);
+	});*/
 });
