@@ -133,6 +133,14 @@ a:focus {
 	height: 100vh;
 }
 
+.resources {
+	background-image:
+        linear-gradient(rgba(114, 183, 71, 0.965), rgba(114, 183, 71, 0.965)), 
+        url("../img/imgtest.png");
+	border-top: 2rem solid #558C34;
+	height: 100vh;
+}
+
 .footer {
 	background-color: #3B3B3B;
 }
@@ -642,6 +650,7 @@ a:visited {
  	body {
  		overflow-x: hidden;
  	}
+
  	h2 {
  		margin-top: 0;
  		padding-top: 1rem;
@@ -650,7 +659,7 @@ a:visited {
  	.product {
  		text-align: center;
  		height: 70%;
- 	}
+
 	.package,
 	.intro {
 		width: 90%;
@@ -686,6 +695,7 @@ a:visited {
 		margin: 0;
 		font-size: 1rem;
 	}
+
 	/*OVERVIEW*/
 	.main {
 		display: block;
