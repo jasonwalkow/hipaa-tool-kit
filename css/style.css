@@ -27,6 +27,7 @@ button:hover {
 	opacity: 0.7;
 }
 
+
 button:focus {
 	outline:0;
 }
@@ -129,6 +130,14 @@ a:focus {
 .resources,
 .any-questions {
 	background-color: #72B747;
+	border-top: 2rem solid #558C34;
+	height: 100vh;
+}
+
+.resources {
+	background-image:
+        linear-gradient(rgba(114, 183, 71, 0.9), rgba(114, 183, 71, 0.9)), 
+        url("../img/darkimg.png");
 	border-top: 2rem solid #558C34;
 	height: 100vh;
 }
@@ -642,7 +651,6 @@ a:visited {
  	body {
  		overflow-x: hidden;
  	}
-
  	h2 {
  		margin-top: 0;
  		padding-top: 1rem;
@@ -651,7 +659,7 @@ a:visited {
  	.product {
  		text-align: center;
  		height: 70%;
-
+	}
 	.package,
 	.intro {
 		width: 90%;
