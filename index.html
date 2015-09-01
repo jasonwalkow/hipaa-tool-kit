@@ -8,15 +8,17 @@
 	<title>HIPAA Tool Kit</title>
 	<link href='http://fonts.googleapis.com/css?family=Poppins:400,700,500' rel='stylesheet' type='text/css'>
 	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" type="image/x-icon"  href="img/favicon.ico">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<script src="js/scrollspy.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
-<body>
+<body data-spy="scroll">
 	<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -29,7 +31,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right navbar-custom hipaa-tool-nav">
-            <li><a href="#introduction" class="overview-green">HIPAA TOOL KIT</a></li>
+            <li><a href="#introduction" class="overview-green scroll-click">HIPAA TOOL KIT</a></li>
             <li><a href="#overview" class="scroll-click">OVERVIEW</a></li>
             <li><a href="#policies" class="scroll-click">POLICIES &amp; PROCEDURES</a></li>
             <li><a href="#training" class="scroll-click">TRAINING</a></li>
@@ -40,11 +42,11 @@
         </div>
       </div>
     </nav>
-	<section class="introduction">
+	<section class="introduction" id="section1">
 	<a name="introduction"></a>
 		<div class="product">
 			<div class="package">
-				<img class="hipaa-box" src="img/HIPAAToolKit.png" alt="HIPAA-Tool-Kit">
+				<img class="hipaa-box animated fadeIn" src="img/HIPAAToolKit.png" alt="HIPAA-Tool-Kit">
 			</div>
 			<div class="intro">
 				<h1 class="page-title">HIPAA Tool Kit</h1>
@@ -55,147 +57,166 @@
 		</div>
 	</section>
 	<a name="overview"></a>
-	<section class="overview">
+	<section class="overview" id="section2">
 		<h2 class="include">What does the <span class="title">HIPAA Tool Kit</span> Include?</h2>
-		<div class="main">
+		<div class="main animated fadeInLeft">
 			<h3 class="overview-title">$2,000 One-Time Cost</h3>
 				<ul class="one-time-cost">
 					<li>
-						<img class="small-icon" src="img/pandp-green.png" alt="HIPAA-Policies-And-Procedures">
-						<h4 class="small-title">Policies &amp; Procedures</h4>
+						<a href="#policies" class="no-link-style scroll-click">
+							<img class="small-icon" src="img/pandp-green.png" alt="HIPAA-Policies-And-Procedures">
+							<h4 class="small-title">Policies &amp; Procedures</h4>
+						</a>
 						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<p class="separately"><span class="highlight">$1,500</span> if purchased separately</p>
 						<button class="buy-now-small">BUY NOW</button>
 					</li>
 					<li>
-						<img class="small-icon" src="img/livetraining-green.png" alt="Live-Webinar">
-						<h4 class="small-title">Live <br> Webinar</h4>
+						<a href="#training" class="no-link-style scroll-click">
+							<img class="small-icon" src="img/livetraining-green.png" alt="Live-Webinar">
+							<h4 class="small-title">Live <br> Webinar</h4>
+						</a>
 						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<p class="separately"><span class="highlight">$350</span> if purchased separately</p>
 						<button class="buy-now-small">BUY NOW</button>
 					</li>
 					<li>
-						<img class="small-icon" src="img/trainingmaterials-green.png" alt="Training-Materials">
-						<h4 class="small-title">Training <br> Materials</h4>
+						<a href="#training" class="no-link-style scroll-click">
+							<img class="small-icon" src="img/trainingmaterials-green.png" alt="Training-Materials">
+							<h4 class="small-title">Training <br> Materials</h4>
+						</a>
 						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<p class="separately"><span class="highlight">$400</span> if purchased separately</p>
 						<button class="buy-now-small">BUY NOW</button>
 					</li>
 				</ul>
+			<p class="summary">When you purchase the HIPAA Tool Kit, you get the Monthly HIPAA Subscription free for your first month!</p>
 		</div>
-		<div class="plus">
+		<div class="plus animated fadeIn">
 			<img class="plus-sign" src="img/plus-sign.png" alt="Plus">
 		</div>
-		<div class="second">
+		<div class="second animated fadeInRight">
 			<h3 class="subscription-title">$99/Month Subscription</h3>
 				<ul class="subscription">
 					<li>
-						<img class="smallest-icon" src="img/hipaanews-green.png" alt="HIPAA-Newsletter">
-						<h4 class="smallest-title">Monthly <br> Newsletter</h4>
+						<a href="#news" class="no-link-style scroll-click">
+							<img class="smallest-icon" src="img/hipaanews-green.png" alt="HIPAA-Newsletter">
+							<h4 class="smallest-title">Monthly <br> Newsletter</h4>
+						</a>
 					</li>
 					<li>
-						<img class="smallest-icon" src="img/hipaablog-green.png" alt="Training-Materials">
-						<h4 class="smallest-title">Blog <br> Access</h4>
+						<a href="#news" class="no-link-style scroll-click">
+							<img class="smallest-icon" src="img/hipaablog-green.png" alt="Training-Materials">
+							<h4 class="smallest-title">Blog <br> Access</h4>
+						</a>
 					</li>
 					<li>
-						<img class="smallest-icon" src="img/hipaahandouts-green.png" alt="HIPAA-Handouts">
-						<h4 class="smallest-title">HIPAA <br> Handouts</h4>
+						<a href="#resources" class="no-link-style scroll-click">
+							<img class="smallest-icon" src="img/hipaahandouts-green.png" alt="HIPAA-Handouts">
+							<h4 class="smallest-title">HIPAA <br> Handouts</h4>
+						</a>
 					</li>
 					<li>
-						<img class="smallest-icon" src="img/annualupdates-green.png" alt="Annual-Updates">
-						<h4 class="smallest-title">Annual <br> Updates</h4>
+						<a href="#resources" class="no-link-style scroll-click">
+							<img class="smallest-icon" src="img/annualupdates-green.png" alt="Annual-Updates">
+							<h4 class="smallest-title">Annual <br> Updates</h4>
+						</a>
 					</li>
 				</ul>
 		</div>
 	</section>
 	<a name="policies"></a>
-	<section class="policies">
+	<section class="policies" id="section3">
 		<h2>HIPAA Policies &amp; Procedures</h2>
-		<img class="p-p" src="img/pandp.png" alt="HIPAA-Policies-And-Procedures">
+		<img class="p-p animated fadeIn" src="img/pandp.png" alt="HIPAA-Policies-And-Procedures">
 		<div class="policy-text">
 			<p class="p-and-p"><span class="highlight">HIPAA Tool Kit</span> Policies and Procedures are in compliance with current regulations, including HIPAA's Privacy Rule, Security Rule, Enforcement Rule, and Breach Notification Rule.</p>
 			<p class="p-and-p">Individual Policies and Procedures include, but are not limited to, <span class="highlight">Notice of Privacy Practices, Use of PHI for TPO, Third Party Disclosures, Authorization for Use or Disclosure, Tracking Logs, Covered Entities and Business Associates, as well as Breaches and Breach Risk Assessment.</span></p>
 			<a href="#policy-example" class="scroll-click"><button class="sign-up next-more">FIND OUT MORE</button></a>
 		</div>
 	</section>
-	<section class="policy-example">
+	<section class="example">
 	<a name="policy-example"></a>
 		<h4 class="example-title">View a sample from our HIPAA Policies &amp; Procedures</h4>
 		<div>
-			<img class="p-p-example" src="img/policy-pics.png" alt="HIPAA-Policies-And-Procedures">
+			<img class="p-p-example animated fadeIn" src="img/policy-pics.png" alt="HIPAA-Policies-And-Procedures">
 			<p class="example-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
+		<a href="#training" class="scroll-click"><button class="see-more">SEE TRAINING</button></a>
 	</section>
-	<section class="training">
+	<section class="training" id="section4">
 	<a name="training"></a>
 		<h2>HIPAA Training</h2>
 		<div class="content-box">
-			<img class="box-icon" src="img/livetraining.png" alt="Live-Webinar">
+			<img class="box-icon animated fadeIn" src="img/livetraining.png" alt="Live-Webinar">
 			<h3>Live Webinar</h3>
 			<p class="box-para">Once you have purchased the HIPAA Tool Kit, you and your staff will be scheduled for a live initial HIPAA Compliance Webinar from a Certified Healthcare Compliance (CHC) Consultant.</p>
 		</div>
 		<div class="content-box">
-			<img class="box-icon" src="img/trainingmaterials.png" alt="Training-Materials">
+			<img class="box-icon animated fadeIn" src="img/trainingmaterials.png" alt="Training-Materials">
 			<h3>Training Materials</h3>
 			<p class="box-para">In addition to the Live Training, you and your staff will receive training materials for new hires and ongoing education. Training materials are easy-to-follow and aesthetically modern.</p>
 		</div>
 		<a href="#training-example" class="scroll-click"><button class="sign-up next-more">FIND OUT MORE</button></a>
 	</section>
-	<section class="training-example">
+	<section class="example">
 	<a name="training-example"></a>
 		<h4 class="example-title">View a sample from our HIPAA Training</h4>
 		<div>
-			<img class="training-pics" src="img/training-pics.png" alt="HIPAA-Training">
+			<img class="training-pics animated fadeIn" src="img/training-pics.png" alt="HIPAA-Training">
 			<p class="example-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
+		<a href="#news" class="scroll-click"><button class="see-more">SEE NEWS</button></a>
 	</section>
-	<section class="news">
+	<section class="news" id="section5">
 	<a name="news"></a>
 		<h2>HIPAA News</h2>
 		<div class="content-box">
-			<img class="box-icon" src="img/hipaanews.png" alt="HIPAA-News">
+			<img class="box-icon animated fadeIn" src="img/hipaanews.png" alt="HIPAA-News">
 			<h3>Monthly Newsletter</h3>
 			<p class="box-para">Read the latest breaking HIPAA news from our newsletter and stay up-to-date on recent enforcement actions and guidance announcements.</p>
 		</div>
 		<div class="content-box">
-			<img class="box-icon" src="img/hipaablog.png" alt="HIPAA-Blog">
+			<img class="box-icon animated fadeIn" src="img/hipaablog.png" alt="HIPAA-Blog">
 			<h3>HIPAA Blog</h3>
 			<p class="box-para">Learn about the latest HIPAA events and happenings from industry leaders. Gain insight into the industry and upcoming education events. <a href="https://hipaatoolkitblog.wordpress.com/" class="highlight" target="_blank">Visit our blog</a> for a preview of what's included.</p>
 		</div>
 		<a href="#news-example" class="scroll-click"><button class="sign-up next-more">FIND OUT MORE</button></a>
 	</section>
-	<section class="news-example">
+	<section class="example">
 	<a name="news-example"></a>
 		<h4 class="example-title">View a sample from our HIPAA News</h4>
 		<div>
-			<img class="news-pics" src="img/news-pics.png" alt="HIPAA-News">
+			<img class="news-pics animated fadeIn" src="img/news-pics.png" alt="HIPAA-News">
 			<p class="example-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
+		<a href="#resources" class="scroll-click"><button class="see-more">SEE RESOURCES</button></a>
 	</section>
-	<section class="resources">
+	<section class="resources" id="section6">
 	<a name="resources"></a>
 		<h2>HIPAA RESOURCES</h2>
 		<div class="content-box">
-			<img class="box-icon" src="img/hipaahandouts.png" alt="HIPAA-Handouts">
+			<img class="box-icon animated fadeIn" src="img/hipaahandouts.png" alt="HIPAA-Handouts">
 			<h3>HIPAA Handouts</h3>
 			<p class="box-para">Our handouts include a HIPAA F.A.Q., one-pagers for Privacy Officers, HIPAA flyers, and other resources to help you promote HIPAA compliance.</p>
 		</div>
 		<div class="content-box">
-			<img class="box-icon" src="img/annualupdates.png" alt="Annual-Updates">
+			<img class="box-icon animated fadeIn" src="img/annualupdates.png" alt="Annual-Updates">
 			<h3>Annual Policy Updates</h3>
 			<p class="box-para">Since HIPAA was enacted in 1996, it has undergone significant changes and updates in order to meet increasingly strict industry standards.</p>
 		</div>
 		<a href="#resources-example" class="scroll-click"><button class="sign-up next-more">FIND OUT MORE</button></a>
 	</section>
-	<section class="resources-example">
+	<section class="example">
 	<a name="resources-example"></a>
 		<h4 class="example-title">View a sample from our HIPAA Resources</h4>
 		<div>
-			<img class="resources-pics" src="img/resources-pics.png" alt="HIPAA Resources and Handouts">
+			<img class="resources-pics animated fadeIn" src="img/resources-pics.png" alt="HIPAA Resources and Handouts">
 			<p class="example-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
+		<a href="#any-questions" class="scroll-click"><button class="see-more">QUESTIONS?</button></a>
 	</section>
-	<section class="any-questions">
+	<section class="any-questions" id="section7">
 	<a name="any-questions"></a>
 		<h2>HAVE A QUESTION? GET IN TOUCH</h2>
 		<div>
@@ -228,7 +249,7 @@
 				<li>
 					<p class="by-line"><a href="#introduction" class="highlight to-top scroll-click">HIPAA Tool Kit</a> is a product sold and distributed by <a href="http://www.compliagent.com" class="highlight" target="_blank">Compliagent</a>, a consulting firm based in Los Angeles, CA. If you are interested in professional consulting services or would like to learn more, please visit our <a href="http://www.compliagent.com" class="highlight" target="_blank">website</a>.</p>
 				</li>
-				<li class="center-image">
+				<li class="center-image animated fadeIn">
 					<img class="closing-logo" src="img/logosymbol.png" alt="logo">
 				</li>
 				<li>

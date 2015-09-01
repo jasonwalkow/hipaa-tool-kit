@@ -8,4 +8,13 @@ $(document).ready(function() {
 		var href = $(this).attr('href').replace('#', '');
 		scrollToAnchor(href);
 	});	
+	$('#myNavbar').scrollspy({
+        min: $('#myNavbar').offset().top,
+        onEnter: function(element, position) {
+            $(".navbar-inverse .navbar-nav li a").addClass("active");
+            },
+        onLeave: function(element, position) {
+            $(".navbar-inverse .navbar-nav li a").removeClass("active");
+            }
+    });
 });
