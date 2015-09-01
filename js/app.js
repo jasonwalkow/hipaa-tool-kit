@@ -17,4 +17,8 @@ $(document).ready(function() {
             $(".navbar-inverse .navbar-nav li a").removeClass("active");
             }
     });
+    //Testimonial Slider Function
+    $(function($) {
+		$('.slider').sss();
+	});
 });

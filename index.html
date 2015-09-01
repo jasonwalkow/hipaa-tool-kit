@@ -10,16 +10,19 @@
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+	<script src="sss/sss.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" type="image/x-icon"  href="img/favicon.ico">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 	<script src="js/scrollspy.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/sss.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
-<body data-spy="scroll">
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="myScrollspy">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -51,7 +54,7 @@
 			<div class="intro">
 				<h1 class="page-title">HIPAA Tool Kit</h1>
 				<p class="intro-text">Designed to help providers meet HIPAA rules and regulations, this all-in-one package is an ideal resource for covering your HIPAA compliance needs.</p>
-				<button class="buy-now">BUY NOW</button>
+				<a href="http://www.compliagent.com/products/hipaa-tool-kit" target="_blank"><button class="buy-now">BUY NOW</button></a>
 				<a href="#overview" class="scroll-click"><button class="learn-more">LEARN MORE</button></a>
 			</div>
 		</div>
@@ -69,7 +72,7 @@
 						</a>
 						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<p class="separately"><span class="highlight">$1,500</span> if purchased separately</p>
-						<button class="buy-now-small">BUY NOW</button>
+						<a href="http://www.compliagent.com/products/hipaa-policies-and-procedures" target="_blank"><button class="buy-now-small">BUY NOW</button></a>
 					</li>
 					<li>
 						<a href="#training" class="no-link-style scroll-click">
@@ -78,7 +81,7 @@
 						</a>
 						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<p class="separately"><span class="highlight">$350</span> if purchased separately</p>
-						<button class="buy-now-small">BUY NOW</button>
+						<a href="http://www.compliagent.com/products/hipaa-live-webinar" target="_blank"><button class="buy-now-small">BUY NOW</button></a>
 					</li>
 					<li>
 						<a href="#training" class="no-link-style scroll-click">
@@ -87,7 +90,7 @@
 						</a>
 						<p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<p class="separately"><span class="highlight">$400</span> if purchased separately</p>
-						<button class="buy-now-small">BUY NOW</button>
+						<a href="http://www.compliagent.com/products/hipaa-training-materials" target="_blank"><button class="buy-now-small">BUY NOW</button></a>
 					</li>
 				</ul>
 			<p class="summary">When you purchase the HIPAA Tool Kit, you get the Monthly HIPAA Subscription free for your first month!</p>
@@ -121,6 +124,9 @@
 							<img class="smallest-icon" src="img/annualupdates-green.png" alt="Annual-Updates">
 							<h4 class="smallest-title">Annual <br> Updates</h4>
 						</a>
+					</li>
+					<li>
+						<a href="http://www.compliagent.com/products/hipaa-monthly-subscription" target="_blank"><button class="sub-now-small">SUBSCRIBE NOW</button></a>
 					</li>
 				</ul>
 		</div>
@@ -222,8 +228,10 @@
 	<section class="any-questions" id="section7">
 	<a name="any-questions"></a>
 		<h2>HAVE A QUESTION? GET IN TOUCH</h2>
-		<div>
-			<img class="testimonial" src="img/testimonial.png" alt="Testimonial">
+		<div class="slider">
+			<img src="img/testimonial1.png" alt="testimonial1">
+			<img src="img/testimonial2.png" alt="testimonial2">
+			<img src="img/testimonial3.png" alt="testimonial3">
 		</div>
 		<br>
 		<a href="#footer" class="scroll-click"><button class="sign-up next-more">CONTACT US</button></a>
@@ -251,7 +259,7 @@
 			</ul>
 			<ul class="closing">
 				<li>
-					<p class="by-line"><a href="#introduction" class="highlight to-top scroll-click">HIPAA Tool Kit</a> is a product sold and distributed by <a href="http://www.compliagent.com" class="highlight" target="_blank">Compliagent</a>, a consulting firm based in Los Angeles, CA. If you are interested in professional consulting services or would like to learn more, please visit our <a href="http://www.compliagent.com" class="highlight" target="_blank">website</a>.</p>
+					<p class="by-line"><a href="http://www.compliagent.com/products/hipaa-tool-kit" target="_blank" class="highlight">HIPAA Tool Kit</a> is a product sold and distributed by <a href="http://www.compliagent.com" class="highlight" target="_blank">Compliagent</a>, a consulting firm based in Los Angeles, CA. If you are interested in professional consulting services or would like to learn more, please visit our <a href="http://www.compliagent.com" class="highlight" target="_blank">website</a>.</p>
 				</li>
 				<li class="center-image animated fadeIn">
 					<img class="closing-logo" src="img/logosymbol.png" alt="logo">
