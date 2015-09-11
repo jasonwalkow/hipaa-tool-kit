@@ -616,9 +616,8 @@ h2 {
 .footer {
 	margin-top: 0;
 	margin-bottom: 0;
-  	height: 60vh;
   	text-align: center;
-  	overflow: hidden;
+  	overflow: auto;
 }
 
 .footer h5 {
@@ -717,6 +716,7 @@ a:visited {
 	padding-top: 3rem;
 	color: #767676;
 	clear: both;
+	padding-bottom: 2rem;
 }
 
 /*================================
