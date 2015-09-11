@@ -8,17 +8,13 @@ $(document).ready(function() {
 		var href = $(this).attr('href').replace('#', '');
 		scrollToAnchor(href);
 	});	
-	$('#myNavbar').scrollspy({
-        min: $('#myNavbar').offset().top,
-        onEnter: function(element, position) {
-            $(".navbar-inverse .navbar-nav li a").addClass("active");
-            },
-        onLeave: function(element, position) {
-            $(".navbar-inverse .navbar-nav li a").removeClass("active");
-            }
-    });
     //Testimonial Slider Function
     $(function($) {
 		$('.slider').sss();
 	});
+
+	$('body').scrollspy({ target: '.navbar' });
+		$('.navbar').on('activate.bs.scrollspy', function () {
+		  console.log('hello');
+		})
 });
